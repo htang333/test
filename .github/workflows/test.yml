@@ -37,7 +37,7 @@ jobs:
     #  run: ./gradlew :app:assembleRelease
       
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: Test
         path: ${{github.workspace}}/README.md
